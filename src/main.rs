@@ -74,7 +74,7 @@ impl Display for Add {
         for it in &self.input {
             sum += it;
         }
-        format!("Sum is {}", sum)
+        format!("Sum of {} number(s) is {}", self.input.len(), sum)
     }
 }
 
